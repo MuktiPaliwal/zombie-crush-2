@@ -89,6 +89,7 @@ function draw() {
 }
 
 function handleButtonPress() {
+  console.log("hello1")
   jointLink.dettach();
   setTimeout(() => {
     bridge.break();
